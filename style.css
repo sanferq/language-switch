@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #1a1f3c, #3f6a82, #081726);
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    display: grid;
+    place-items: center;  
+    height: 100vh; 
+}
+
+.wrapper {
+    display: flex;
+    align-items: flex-end; 
+    justify-content: flex-start; 
+}
+
+textarea {
+    padding: 20px;
+    min-width: 500px;
+    height: 300px;
+    outline: none;
+    border-radius: 5px;
+    
+}
+
+#en-ru {
+    background-color: transparent;
+    border: none;
+    margin-left: 10px; 
+}
+
+#en-ru img {
+    width: 30px;
+    height: 30px;
+}
